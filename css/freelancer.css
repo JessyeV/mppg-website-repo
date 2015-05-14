@@ -193,7 +193,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #193552;
 }
 
 @media(max-width:767px) {
@@ -277,7 +277,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #F19005;
+    color: #193552;
     background: #fff;
 }
 
