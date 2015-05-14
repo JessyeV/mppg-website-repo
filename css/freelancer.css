@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #F19005;
+    color: #f39200;
 }
 
 h1,
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #F19005;
+    background-color: #f39200;
 }
 
 hr.star-primary {
@@ -81,7 +81,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #193552;
+    color: #143253;
     background: #FFF;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,9 +101,18 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-family: "Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 3.5em;
     font-weight: 700;
+}
+
+header .intro-text .name-suite{
+    color:#f39200;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
 }
 
 header .intro-text .skills {
@@ -111,14 +120,15 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+header .intro-text .phone{
+    font-size: 2em;
+    color:#f39200;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
     }
 
     header .intro-text .skills {
@@ -152,7 +162,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -183,9 +193,25 @@ section h2 {
     margin-bottom: 1em;
 }
 
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }   
+}
+
+
+
 #about {
     color: #fff;
-    background: #F19005;
+    background: #f39200;
 }
 
 #about .btn{
@@ -197,12 +223,12 @@ section h2 {
 }
 
 #skills ul li img{
-    background: #193552;
+    background: #f39200;
     transition: all .3s ease-in-out;
 }
 
 #skills ul li img:hover{
-    background: #F19005;
+    background: #143253;
     transition: all .3s ease-in-out;
 }
 
@@ -213,33 +239,12 @@ section h2 {
     font-weight: bold;
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
+#partner{
+    background-color:#143253;
 }
 
-
-.btn-outline {
-    margin-top: 15px;
-    border: solid 2px #fff;
-    font-size: 20px;
-    color: #fff;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #193552;
-    background: #fff;
+#partner h2{
+    color:white;
 }
 
 footer {
