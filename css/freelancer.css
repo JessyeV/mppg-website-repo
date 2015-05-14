@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #F19005;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #F19005;
 }
 
 hr.star-primary {
@@ -81,8 +81,11 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #193552;
+    background: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
 }
 
 header .container {
@@ -181,7 +184,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #F19005;
 }
 
 section.success a,
@@ -274,7 +277,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #F19005;
     background: #fff;
 }
 
@@ -327,7 +330,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #F19005;
 }
 
 form .row:first-child .floating-label-form-group {
