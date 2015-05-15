@@ -119,13 +119,14 @@ hr.star-primary:after {
 }
 
 
-header {
+header{
     text-align: center;
     color: #143253;
     background: #FFF;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:100vh;
+    height:100vh;
+    margin-bottom: 50px;
 }
 
 header .container {
@@ -239,9 +240,39 @@ section h2 {
     color:white;
 }
 
+#brands{
+    color: #fff;
+    background: #f39200;
+}
+
+#brands ul>li{
+    height:200px;
+}
+
+#brands ul li img{
+    width: 150px;
+}
 
 #contact{
     text-align: center;
+}
+/* IMAGE BRANDS - ZOOM EFFECT*/
+
+.img-hover img {
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+    -moz-transition: all .3s ease; /* Firefox */
+    -o-transition: all .3s ease; /* IE 9 */
+    -ms-transition: all .3s ease; /* Opera */
+    transition: all .3s ease;
+}
+.img-hover img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
 }
 
 /* CUSTOM - FOOTER */
@@ -271,6 +302,10 @@ footer .footer-below {
 /* SCROLL TOP - BUTTON */
 
 .scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
     width: 50px;
     height: 50px;
 }
