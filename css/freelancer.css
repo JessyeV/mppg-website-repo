@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Futura";
-  src: url('../fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Futura-Medium.woff') format('woff'), url('../fonts/Futura-Medium.ttf')  format('truetype'), url('../fonts/Futura-Medium.svg#Futura-Medium') format('svg');
+  src: url('../fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura-Medium.ttf')  format('truetype'), url('../fonts/Futura-Medium.svg#Futura-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -80,7 +80,8 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 1px;
 }
 
-.navbar .navbar-nav li a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color:#f39200;
     outline: 0;
 }
 
