@@ -29,6 +29,10 @@ p.small {
     font-size: 16px;
 }
 
+a{color:#f39200;}
+
+a:hover{color:#f39200; text-decoration: underline;}
+
 h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-family: "Futura","Century Gothic",Helvetica,Arial,sans-serif;
@@ -232,10 +236,12 @@ section h2 {
 
 #partner{
     background-color:#143253;
+    color:white;
 }
 
-#partner h2{
-    color:white;
+
+#contact{
+    text-align: center;
 }
 
 /* CUSTOM - FOOTER */
