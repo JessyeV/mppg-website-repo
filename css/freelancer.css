@@ -89,6 +89,10 @@ h1,h2,h3,h4,h5,h6 {
     outline: 0;
 }
 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color:#f39200;
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -238,6 +242,14 @@ section h2 {
 #partner{
     background-color:#143253;
     color:white;
+}
+
+#partner ul li img{
+    width: 230px;
+}
+
+#partner ul li p{
+    margin-top: 20px;
 }
 
 #brands{
